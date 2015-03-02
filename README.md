@@ -37,11 +37,16 @@ sample-icon-iPhone-60pt@2x.png
 sample-icon-iPhone-60pt@3x.png
 ```
 
+## Notes
+
 **Make sure that the source image is larger than 180px**
 
 **Make sure that the source image is square**
 
 You *will* be warned of the above if something is fishy.
+
+## License
+See [LICENSE.md](license.md)
 
 
 

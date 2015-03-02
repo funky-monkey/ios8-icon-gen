@@ -11,7 +11,7 @@ brew install imagemagick
 - Install `gem` dependencies
 
 ```shell
-gem install bunder && bundle install
+gem install bundler && bundle install
 ```
 
 - Execute the tool on a simple image:

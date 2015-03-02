@@ -19,7 +19,7 @@ class IconGen
       {type: 'iPhone-60pt@3x', x: 180, y: 180}
   ]
 
-  def initialize(args)
+  def initialize(args = [])
     @args = args
   end
 
@@ -44,7 +44,7 @@ class IconGen
       GEOMETRIES.each do |geom|
         puts "writing image for #{geom[:type]}"
         resized = image.resize(geom[:x], geom[:y])
-        resized.write("#{name}-#{geom[:type]}.png")
+        resized.write "#{name}-#{geom[:type]}.png"
       end
     end
   end
@@ -60,4 +60,5 @@ end
 
 app = IconGen.new(ARGV)
 app.run
-# app.gitignore_shizzle
+
+#IconGen.new.gitignore_shizzle

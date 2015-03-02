@@ -46,7 +46,7 @@ sample-icon-iPhone-60pt@3x.png
 You *will* be warned of the above if something is fishy.
 
 ## License
-See [LICENSE.md](license.md)
+See `LICENSE.md`
 
 
 

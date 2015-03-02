@@ -2,7 +2,7 @@
 
 ## Usage
 
-- Make sure you have ImageMagick installed on your computer. On OS X:
+- Make sure you have ImageMagick installed on your computer. On OS X with [Homebrew](http://brew.sh):
 
 ```shell
 brew install imagemagick
